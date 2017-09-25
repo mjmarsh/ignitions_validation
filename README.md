@@ -62,3 +62,22 @@ Documentation for validating vegetation fire ignitions for Fire Danger Operating
       
 **Note: LE-66 data is the authority dataset, so it is preferred over FC34, however, there are many more ignitions that do NOT get reported in LE-66 and therefore FC34 is the best resource**
           - LE-66 reports also have a bit of lag time in their completion, check the LE-66 report periodically as older fire reports may have been added
+
+*Weather and Burning Index*
+
+ 1. Use the Lat & long and location address information to geolocate the ignition area
+ 
+ 2. Go to https://www.wunderground.com/wundermap and navigate to the area you wish to find the weather for
+ 
+ 3. Click a station that is relatively close and has reasonable weather readings.  Click hyperlink 'Station ID'
+ 
+ 4. In the new window scroll down the page to the heading 'Weather History for ..."  Change the date to the ignition date, then click 'view'
+ 
+ 5. Change the data type to 'Table' instead of the default 'Graph'.  Browse for the closest weather reading to the ignition time.  Be sure to fill in Temperature, Relative Humidity, Wind Speed, and Wind Direction in the 'master_fire_data' Google Sheet
+ 
+  (Only complete this next step for fires 10+ acres in size)
+  
+  6. Naviagte to http://www.wfas.net/index.php/search-archive-mainmenu-92 . Check bubble entitled 'Do not use pop-up windows'.  Click in the empty box to select desired date, then click 'Submit'.
+  
+  7. On the new tab that opens, click the link for 'Observed Fire Danger Map Data'.  Once this text file opens type Ctrl + f, and in the box that appears in the upper right corner, type the name of weather station closest to desired ignition.  Record the BI on the Google Sheet.
+        Options are: Arroyo Grande, Las Tablas, La Panza, SLO Coastal
