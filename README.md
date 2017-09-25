@@ -80,4 +80,5 @@ Documentation for validating vegetation fire ignitions for Fire Danger Operating
   6. Naviagte to http://www.wfas.net/index.php/search-archive-mainmenu-92 . Check bubble entitled 'Do not use pop-up windows'.  Click in the empty box to select desired date, then click 'Submit'.
   
   7. On the new tab that opens, click the link for 'Observed Fire Danger Map Data'.  Once this text file opens type Ctrl + f, and in the box that appears in the upper right corner, type the name of weather station closest to desired ignition.  Record the BI on the Google Sheet.
+  
         Options are: Arroyo Grande, Las Tablas, La Panza, SLO Coastal
