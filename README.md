@@ -50,13 +50,18 @@ Documentation for validating vegetation fire ignitions for Fire Danger Operating
     
  *Google Sheet Notes*
  
-   **6.** Miscellenous information about the spreadsheet ('2017 LE-66 Detail' is meant as the most up-to-date sheet)
+   **6.** Miscellenous information about the spreadsheet 
+   
+
    
         - 'Day' column will auto-populate once the date has been manually filled in (hover over bottom right corner of cell, click, and drag down)
         - Minimum fire size must be .1 acres (FireFamilyPlus will throw out all fires <.1 acres)
         - The bold font time in cell 'D2' uses a formula to compile the average report time.  Bold font in cell 'I2' tallies all acreage
         - Use Column Q ('Location Verified') as a check for validation of ignition locations (yes or No drop-down menu)
         - In Column L ('Comments'), note 'FC34' if that is the data source, or copy/paste any pertinent info from LE-66 report
+        - '2017 LE-66 Detail' is meant as the most up-to-date sheet, and sends data to '2017 Graphs' tab 
+        - 'master_Fire_Data_1950&1992-2017' is the master ignitions sheet for FDOP
+        - '2017 TAB Report' and 'Sheet7' are rough draft tabs that may be able to be deleted
         - '2017 Graphs' sheet pulls all data from '2017 LE-66 Detail' to create statistically useful graphs by year
         - 'Miscellaneous Ignitions' sheet categorizes by type using the 'Sub Class' column (K)
       
