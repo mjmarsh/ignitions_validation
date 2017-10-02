@@ -40,7 +40,7 @@ Documentation for validating vegetation fire ignitions for Fire Danger Operating
      
    **5.** Use all same login info as in step 4 above
    
-        - Navigate to 'LE-66 Detail'
+        - Navigate to 'LE-66 Detail' (Public Folders>CAIRS Reports>LE-66 Wildland>LE-66 Detail)
         - In the 'Available Values' box, select 'SLU' then '>" 
         - In the 'Enter Date Range' boxes at bottom of page choose a start and end date
         - Click 'Add Range' and 'OK'
