@@ -20,6 +20,7 @@ Documentation for validating vegetation fire ignitions for Fire Danger Operating
    **4.** Login into [Crystals](https://webrpt.fire.ca.gov/BOE/BI)
    
         - Navigate to 'FC34 Detail-All Seg (Incident Number)
+        - Authentication must be 'Enterprise'
         - Enter 2nd set of login credentials
         - Leave the top 2 fields (Start of Range & End of Range) blank
         - At bottom left box, type year of incident + 00 + #### (Incident Number)  ALWAYS WITH 4-DIGIT YEAR + 6-DIGIT INCIDENT ID
